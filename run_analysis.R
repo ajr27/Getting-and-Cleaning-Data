@@ -31,7 +31,7 @@ dl.date <- date()
 ###################### STEP 1. Download and unzip the data ####################
 
 # Query the user to choose a root directory in which download and unzip files.
-root.dir <- "C:/Users/arcenis.rojas/Desktop/Getting And Cleaning Data"
+root.dir <- getwd()
 
 # Save the name of the folder to use as a working directory for the project
 project.dir <- paste0(root.dir, "/Getting and Cleaning Data Course Project")
